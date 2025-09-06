@@ -1,0 +1,156 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/****************color************/
+
+/************ Baggrunds farve************/
+body {
+  background-color: #f6f9ff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/***************Font Overskrift**********************/
+.roboto.uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+@font-face {
+  font-family: "andika";
+  src: url(./fonts/andika-regular-webfont.woff) format(".woff"),
+    url(./fonts/andika-regular-webfont.woff2) format(".woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+h1 {
+  background-color: #9bb7ff;
+  font-family: Roboto;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  /*text-shadow: 1px 1px 1px rgb(27, 10, 91);*/
+}
+
+h2 {
+  background-color: #fea95c;
+  font-family: andika, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-family: andika, sans-serif;
+  background-color: #ffeeca;
+  font-size: 0.9rem;
+}
+
+@font-face {
+  font-family: "neuton";
+  src: url(./fonts/neuton-regular-webfont.woff) format(".woff"),
+    url(./fonts/neuton-regular-webfont.woff2) format(".woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: neuton, sans-serif;
+  font-size: 0.8rem;
+  margin-block: 0.8rem;
+  line-height: 140%;
+  text-wrap: balance;
+}
+
+nav li {
+  color: black;
+}
+
+a {
+  font-family: neuton, sans-serif;
+  background-color: #9bb7ff;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.button {
+  font-family: "Neuton", sans-serif;
+  background-color: #9bb7ff;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border: none; /*fjerner default borders*/
+  border-radius: 5px; /*runde hjørner på knap*/
+  display: inline-block; /*til padding og bredde*/
+  cursor: pointer; /*viser cursor når du hover*/
+  transition: background-color 0.3s ease; /*skifte farve ved hover, smooth fade*/
+}
+
+dl {
+  background-color: #ffeeca;
+  border-style: solid;
+  border-width: 2px 2px;
+  border-color: #fea95c;
+  font-family: neuton, sans-serif;
+  font-size: 0.8rem;
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+dd {
+  margin-left: 5px;
+  font-size: 0.7rem;
+}
+
+/*****************billeder************/
+img {
+  margin-top: 0.5rem;
+}
+
+/*******************andet***************/
+main {
+  padding: 10px;
+}
+
+nav {
+  padding: 1px;
+}
+
+/*****************nav :visited {
+  color: rgb(216, 30, 30);
+}
+  *****************/
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #9bb7ff;
+  font-family: neuton, sans-serif;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
